@@ -1,5 +1,9 @@
-# Project Name
-> Outline a brief description of your project.
+# Prediction of demand for shared bikes
+> A US bike-sharing provider wants to understand the factors that influence the demand for shared bikes.
+> The company wants to know:
+> - Which variables are significant in predicting the demand for shared bikes.
+> - How well those variables describe the bike demands
+
 
 
 ## Table of Contents
@@ -9,21 +13,21 @@
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-
+- We use Linear Regression to build the model to predict the demand 
+- A hybrid approach of both Recursive Feature Elimination(RFE) and manual feature selection is used to select the final set of features/variables for the model.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
+- Python - version 3.11.7
+- Pandas - version 2.1.4
+- Numpy - version 1.26.4
+- Seaborn - version 0.12.2
+- Matplotlib - version 3.8.0
+- Jupyter Notebook - version 7.0.8
+
+## Conclusions
+- The variables temp, year, weathersit(value=3 light rain), spring season are big factors influencing the demand of shared bikes.
+- Temperature and Year have positive effect/relation on the demand for bikes.
+- Light rain and spring season have a negative effect on the demand.
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+This project is done as part of the IIIT Bangalore Executive PG Programme in Machine Learning & AI.
