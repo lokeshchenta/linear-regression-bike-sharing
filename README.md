@@ -23,6 +23,8 @@
 - Seaborn - version 0.12.2
 - Matplotlib - version 3.8.0
 - Jupyter Notebook - version 7.0.8
+- statsmodels - version 0.14.0
+- scikit-learn - version 1.2.2
 
 ## Conclusions
 - The variables temp, year, weathersit(value=3 light rain), spring season are big factors influencing the demand of shared bikes.
